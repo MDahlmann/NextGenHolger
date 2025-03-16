@@ -7,6 +7,7 @@ Stopwatch timer = new Stopwatch();
 
 do
 {
+    timer.Reset();
     Console.Clear();
     Console.WriteLine("""
     Velkommen til "Find Holger".
@@ -83,13 +84,13 @@ do
     timer.Start();
 
     Console.ForegroundColor = ConsoleColor.White;
-    (int venstre, int top) = Console.GetCursorPosition();
     Console.WriteLine("""
 
 
     Har du fundet Holger?
 
     """);
+    Console.WriteLine(holgerPlads[1] + " " + holgerPlads[0]);
     Console.Write("Indtast kolonne: ");
     string kolonne = Console.ReadLine();
 
