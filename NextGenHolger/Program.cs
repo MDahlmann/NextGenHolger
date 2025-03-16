@@ -90,7 +90,6 @@ do
     Har du fundet Holger?
 
     """);
-    Console.WriteLine(holgerPlads[1] + " " + holgerPlads[0]);
     Console.Write("Indtast kolonne: ");
     string kolonne = Console.ReadLine();
 
