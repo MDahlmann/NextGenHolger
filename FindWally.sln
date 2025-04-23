@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenHolger", "NextGenHolger\NextGenHolger.csproj", "{84329645-CBF0-4533-B136-74D16BA6BB9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWally", "NextGenHolger\FindWally.csproj", "{84329645-CBF0-4533-B136-74D16BA6BB9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
