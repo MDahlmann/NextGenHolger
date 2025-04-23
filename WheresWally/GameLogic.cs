@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace FindWally
+namespace WheresWally
 {
     internal static class GameLogic
     {

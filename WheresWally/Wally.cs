@@ -1,4 +1,4 @@
-﻿namespace FindWally
+﻿namespace WheresWally
 {
     internal class Wally
     {

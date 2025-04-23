@@ -1,4 +1,4 @@
-﻿namespace FindWally
+﻿namespace WheresWally
 {
     internal static class Highscores
     {
@@ -14,8 +14,8 @@
 
         internal static void UpdateHighscore(System.Diagnostics.Stopwatch timer, string difficulty)
         {
-            string highscoreFile = (difficulty == "EASY") ? easyHighScorePath :
-                                   (difficulty == "MEDIUM") ? mediumHighScorePath :
+            string highscoreFile = difficulty == "EASY" ? easyHighScorePath :
+                                   difficulty == "MEDIUM" ? mediumHighScorePath :
                                    hardHighScorePath;
 
             Console.Write("Type in your name to see highscore: ");
@@ -42,8 +42,8 @@
 
         internal static void PrintHighscore(string difficulty)
         {
-            string highscoreFile = (difficulty == "EASY") ? easyHighScorePath :
-                                   (difficulty == "MEDIUM") ? mediumHighScorePath :
+            string highscoreFile = difficulty == "EASY" ? easyHighScorePath :
+                                   difficulty == "MEDIUM" ? mediumHighScorePath :
                                    hardHighScorePath;
 
             string hs = File.ReadAllText(highscoreFile);
